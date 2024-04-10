@@ -2,9 +2,10 @@ from turtle import *
 
 #making wall of a house 
 
-speed(4)
+speed(10)
 
 width(5)
+
 forward(200)
 left(90)
 forward(200)
@@ -35,54 +36,65 @@ goto(200, 200)
 pendown()
 
 begin_fill()
-right(120)
-forward(150)
-left(80)
-forward(100)
+right(135)
+forward(140)
+left(90)
+forward(140)
 end_fill()
-
-
-
-#making windows
 
 penup()
-goto(25, 150)
+left(45)
+forward(20)
+left(90)
+forward(25)
 pendown()
 
-begin_fill()
 
-color("blue")
+#making widows
 
-left(35)
-forward(25)
-left(90)
-forward(25)
-left(90)
-forward(25)
-left(90)
-forward(25)
-
-end_fill()
-
-#making second window
-
-
-begin_fill()
 color("brown")
+begin_fill()
+forward(50)
+right(90)
+forward(50)
+right(90)
+forward(50)
+right(90)
+forward(50)
+end_fill()
 
 penup()
-goto(125, 150)
+right(90)
+forward(100)
 pendown()
-left(90)
-forward(25)
-left(90)
-forward(25)
-left(90)
-forward(25)
-left(90)
-forward(25)
+ 
 
+begin_fill()
+forward(50)
+right(90)
+forward(50)
+right(90)
+forward(50)
+right(90)
+forward(50)
 end_fill()
+
+
+
+penup()
+right(90)
+forward(180)
+left(90)
+forward(100)
+pendown()
+
+color("yellow")
+begin_fill()
+circle(50)
+end_fill()
+
+
+
 
 
 exitonclick()
