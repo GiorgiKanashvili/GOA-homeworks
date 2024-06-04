@@ -3,7 +3,7 @@ from turtle import *
 
 color("lightgreen")
 width(5)
-speed(10)
+speed(5)
 
 #we are making front of GOA castle
 
